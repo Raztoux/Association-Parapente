@@ -1,0 +1,30 @@
+aside {
+	display: inline-block;
+	width: 435px;
+}
+
+#asideLeft{
+	display: inline-block;
+	width: 190px; 
+	float: left;
+	margin: -39px 20px 0px 0px;
+}
+
+#asideRight{
+	display: inline-block;
+	width: 190px;
+}
+
+aside #OccasPara {
+	width: 190px;
+	height: 240px;
+	background-color: #2f3448;
+	border-bottom: 3px dotted white;
+}
+
+aside #OffreBateme {
+	width: 190px;
+	height: 200px;
+	background-color: #dd412b;
+	border-top: 3px dotted white;
+}

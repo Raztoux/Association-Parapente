@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Association parapente */
+
+html {
+	width: 100%;
+}
+
+body {
+	background: url("images-maquette/fond-site.jpg") fixed repeat;
+	font-family: Roboto;
+}
+
+#whitecolor {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	padding: 25px 25px 0px;
+}
+
+header {
+	width: 100%;
+}
+
+header p {
+	display: inline-block;
+	background-color: #a7ba0c;
+	color: #FFF;
+	padding: 20px 15px;
+	width: 16%;
+	font-size: 2.1em;
+}
+
+header img {
+	float: right;
+}
+
+nav {
+	float: right;
+	width: auto;
+	padding: 0px 25px;
+	font-size: 1.45em;
+	color: #918f88;
+	text-align: center;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	margin : auto;
+	padding: 0;
+}
+
+nav li a {
+	display : block;
+	text-decoration: none;
+	padding: 5px;
+	color: inherit;
+}
+
+nav li a:hover {
+	color: inherit;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	width: 140px;
+	word-wrap: break-word;
+	font-size: 0.6em;
+	margin-left: 20px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav li:hover ul li {
+	float: both;
+}
+
+header form {
+	display: inline-block;
+	float: right;
+	margin-top: -25px;
+}
+
+section {
+	padding: 30px 0px;
+}
+
+article {
+	display: inline-block;
+	width: 550px;
+	color: #FFF;
+	margin: 0px 30px 0px 0px;
+}
+
+h1 {
+	background-color: #2f3448;
+	font-size: 1.9em;
+	padding: 10px 10px 20px;
+}
+
+article p {
+	background-color: #2f3448;
+	font-size: 0.9em;
+	padding: 10px 10px 20px;
+}
+
+aside {
+	display: inline-block;
+	width: 400px;
+	position: absolute;
+}
+
+#asideLeft{
+	width: 190px; 
+}
+
+#asideRight{
+	width: 190px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#asideRight p {
+	font-size: 1.8em;
+	color: white;
+	text-align: right;
+}
+
+aside #OccasPara {
+	width: 190px;
+	height: 240px;
+	background-color: #2f3448;
+	border-bottom: 3px dotted white;
+}
+
+aside #OffreBateme {
+	width: 190px;
+	height: 200px;
+	background-color: #dd412b;
+	border-top: 3px dotted white;
+	font-size: 1.8em;
+	color: white;
+	margin-top: -3px;
+}
+#renseignement {
+	padding: 20px 0px 0px;
+	border-bottom: 3px dotted grey;
+}
+
+#renseignement h2 {
+	font-size: 1.2em;
+	color: #dd412b;
+	font-style: italic;
+}
+
+#renseignement h2 img {
+	vertical-align:bottom;
+}
+
+#sectionfoot {
+	margin-top: 30px;
+}
+
+#sectionfoot p, #sectionfoot a {
+	font-size: 0.9em;
+	color: #918f88;
+	text-decoration: none;
+}
+
+#services {
+	display: inline-block;
+	float: left;
+	width: 500px;
+	margin-right: 80px;
+}
+
+h3 {
+	font-size: 1.9em;
+	color: #2f3448;
+	padding-bottom: 10px;
+}
+
+#tablegauche {
+	display: inline-block;
+}
+
+#tabledroite {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+}
+
+#ParaNiveau {
+	display: inline-block;
+	float: left;
+	width: 400px;
+}
+
+#ParaNiveau img, #ParaNiveau a {
+	display: inline-block;
+	float: left;
+	font-size: 0.9em;
+}
+
+ #ParaNiveau a {
+	 padding-left: 20px;
+ }
+
+#News {
+	display: inline-block;
+	float: left;
+	width: 500px;
+	margin: 50px 80px 0px 0px;
+}
+
+#News img, #News p {
+	display: inline-block;
+	vertical-align: top
+}
+
+#News a {
+	font-style: italic;
+	color: #dd412b
+}
+
+#Temoignage {
+	display: inline-block;
+	width: 400px;
+	margin: 50px 0px 0px 0px;	
+}
+
+#Temoignage img, #Temoignage p {
+	display: inline-block;
+	vertical-align: top;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+#Temoignage p {
+	width:200px;
+	padding-left: 20px;
+}
+
+#Temoignage a {
+	font-style: italic;
+	color: #dd412b
+}
+
+footer {
+	text-align: right;
+}
+
+#subfooter {
+	font-style: italic;
+	font-size: 0.6em;
+	color: #000;
+	
+}
